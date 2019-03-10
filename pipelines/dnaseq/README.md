@@ -10,7 +10,7 @@ Usage
 usage: dnaseq.py [-h] [--help] [-c CONFIG [CONFIG ...]] [-s STEPS]
                  [-o OUTPUT_DIR] [-j {pbs,batch,daemon,slurm}] [-f] [--json]
                  [--report] [--clean] [-l {debug,info,warning,error,critical}]
-                 [-t {mugqic,mpileup,light}] [-r READSETS] [-v]
+                 [-t {mugqic,mpileup,light,stest}] [-r READSETS] [-v]
 
 Version: 3.1.3
 
