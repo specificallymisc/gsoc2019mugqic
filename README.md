@@ -1,3 +1,17 @@
+
+Solution for selection test for GSoC 2019 idea : **Flowchart creator for GenPipes**
+
+     implement a test flowchart in python for the 5 first steps of the DNAseq pipeline with the corresponding steps:
+
+     picard_sam_to_fastq => generate fastq files from bam files
+     trimmomatic => clean fastq files
+     merge_trimmomatic_stats => merge individuals cleaning metrics
+     bwa_mem_picard_sort_sam => generate bam files from fastq files
+     picard_merge_sam_files => merge individuals bam files
+
+     Input data could be bam (incorporated at step 1 or 5) or fastq (incorporated at step 2).
+
+
 GenPipes
 ================
 This repository holds several bioinformatics pipelines developed at [McGill University and Génome Québec Innovation Centre](http://gqinnovationcenter.com) (MUGQIC), as part of the [GenAP project](https://genap.ca).
