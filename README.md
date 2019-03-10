@@ -10,6 +10,9 @@ Solution for selection test for GSoC 2019 idea : **Flowchart creator for GenPipe
      picard_merge_sam_files => merge individuals bam files
 
      Input data could be bam (incorporated at step 1 or 5) or fastq (incorporated at step 2).
+     
+To run this workflow, give following command
+     dnaseq.py -t stest
 
 
 GenPipes
