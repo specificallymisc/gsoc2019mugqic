@@ -1872,4 +1872,4 @@ class DnaSeq(DnaSeqRaw):
         super(DnaSeq, self).__init__(protocol)
 
 if __name__ == '__main__':
-    DnaSeq(protocol=['mugqic', 'mpileup'])
+    DnaSeq(protocol=['mugqic', 'mpileup','stest'])
